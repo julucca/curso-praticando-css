@@ -42,13 +42,18 @@ img:hover {
 
 /* Header */
 
-.menu {
+header nav {
     background-color: black;
     font-family: var(--fonte-secundaria);
     font-size: 16px;
+}
+
+.menu {
     height: 258px;
     padding: 0 1.5rem;
     white-space: nowrap;
+    max-width: 358px;
+    margin-inline: auto;
 }
 
 .menu__titulo {
@@ -365,6 +370,7 @@ img:hover {
     /* Header */
     .menu {
         height: 217px;
+        max-width: none;
     }
 
     .menu__titulo {
