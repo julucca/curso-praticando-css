@@ -142,6 +142,8 @@ header nav {
 
 .categorias__lista {
     color: white;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
     text-align: center;
 }
 
@@ -259,6 +261,12 @@ header nav {
     transition: .5s;
 }
 
+.eventos__botao,
+.agenda__botao {
+    margin-top: 1rem;
+    text-align: center;
+}
+
 .eventos__botao button:hover,
 .agenda__botao button:hover,
 .eventos__item button:hover,
@@ -299,6 +307,10 @@ header nav {
     color: white;
     text-transform: uppercase;
     padding-top: 1rem;
+}
+
+.agenda__informacoes {
+    font-family: var(--fonte-secundaria);
 }
 
 .agenda__informacoes h3 {
@@ -411,6 +423,13 @@ header nav {
 
     /* Agenda */
 
+    .eventos__botao,
+    .agenda__botao {
+        text-align: right;
+        max-width: 965px;
+        margin-inline: auto;
+    }
+
     .agenda__item {
         width: 308px;
     }
@@ -480,6 +499,11 @@ header nav {
 
     .eventos__item {
         width: 280px;
+    }
+
+    .eventos__botao,
+    .agenda__botao {
+        max-width: 1200px;
     }
 
     /*Agenda*/
