@@ -5,7 +5,7 @@
 <h2>:file_folder: Detalhes do projeto</h2> 
 
 <div align="center">
-	<img width=300px src="./assets/img/logo-branco-menor.png">
+	<img width=200px src="./assets/img/logo-branco-maior.png">
 </div><br>
 
 <p>Culturama é uma página de divulgação de eventos culturais fictícia.</p>
@@ -14,7 +14,7 @@
 
 <div align="center">
 	<img width=200px src="./assets/img/git-culturama-360.png">
-	<img width=446px src="./assets/img/git-culturama-720.png">
+	<img width=410px src="./assets/img/git-culturama-720.png">
   <img width=650px src="./assets/img/git-culturama-1440.png">
 </div><br>
 
