@@ -109,6 +109,12 @@
     }
 }
 
+@media screen and (min-width: 1440px) and (max-width: 1448px) {
+    .eventos__item {
+        max-width: 19.28vw;
+    }
+}
+
 @media (min-width: 1440px) {
 
     /* Cabeçalho */
@@ -133,4 +139,3 @@
         max-width: 1390px;
     }
 }
-
