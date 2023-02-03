@@ -12,7 +12,7 @@
 /* Categorias */
 
 .categorias {
-    max-width: 970px;
+    max-width: 400px;
     margin-inline: auto;
 }
 
@@ -40,7 +40,7 @@
 
 .eventos,
 .agenda {
-    max-width: 965px;
+    max-width: 400px;
     margin-inline: auto;
 }
 
@@ -84,6 +84,10 @@
 
     /* Categorias */
 
+    .categorias {
+        max-width: 960px;
+    }
+
     .categorias__lista {
         flex-wrap: wrap;
         column-gap: 1.5rem;
@@ -93,6 +97,11 @@
 
 
     /* Eventos e agenda */
+
+    .eventos,
+    .agenda {
+        max-width: 960px;
+    }
 
     .eventos__item,
     .agenda__item {

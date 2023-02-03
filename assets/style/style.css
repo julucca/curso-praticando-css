@@ -202,13 +202,29 @@ header nav {
 
 .categorias__imagem {
     margin-bottom: 1.5rem;
-    background-image: url("../img/destaques-360.png");
+}
+
+.categorias__imagem h4 {
+    background-image: url("../img/destaques-imagem.jpg");
     background-repeat: no-repeat;
     height: 271px;
     background-size: cover;
     background-position: center;
     opacity: 1;
     transition: 0.5s;
+    position: relative;
+}
+
+.categorias__imagem h5 {
+    color: white;
+    font-family: var(--fonte-secundaria);
+
+    padding: 10px 13px;
+    background-color: rgba(217, 217, 217, 0.5);
+
+    position: absolute;
+    z-index: 1;
+    margin-top: 215px;
 }
 
 .categorias__imagem:hover {
@@ -417,8 +433,8 @@ header nav {
         width: 417.96px;
     }
 
-    .categorias__imagem {
-        background-image: url("../img/apresentacao-720.png");
+    .categorias__imagem h4 {
+        background-image: url("../img/destaques-imagem-720.jpg");
     }
 
     /* Agenda */
@@ -490,9 +506,16 @@ header nav {
     }
 
     .categorias__imagem {
-        height: 224px;
         margin-bottom: 0;
-        background-position-y: bottom;
+    }
+
+    .categorias__imagem h4{
+        height: 235px;
+        background-position-y: 70%;
+    }
+
+    .categorias__imagem h5 {
+        margin-top: 175px;
     }
 
     /*Eventos*/
