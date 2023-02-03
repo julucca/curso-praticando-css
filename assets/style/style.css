@@ -80,7 +80,7 @@ header nav {
     height: 40px;
     border: 2px solid white;
     border-radius: 10px;
-    padding-top: 5px;
+    padding: 5px 0 0 5px;
     margin-bottom: 10px;
 }
 
@@ -503,7 +503,7 @@ header nav {
 
     .eventos__botao,
     .agenda__botao {
-        max-width: 1200px;
+        max-width: none;
     }
 
     /*Agenda*/
